@@ -1,0 +1,27 @@
+body{font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+header, footer{background-color:#a09ebb;}
+.site-title{
+    color: #3c1518;
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+main ul{
+    list-style:square;
+}
+nav li {
+    list-style: none;
+    background-color: #d58936;
+    border: 1px solid #a44200;
+}
+nav a {
+    text-decoration: none;
+}
+ul a:hover {
+    background-color: #fff;
+}
+article li:nth-child(odd) {
+   background-color: #b5d2cb;
+}
